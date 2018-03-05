@@ -5,8 +5,8 @@
 
 }
 
-p {
+.firstdiv > p {
     
-    text-align: right;
+    text-align: left;
     
 }
