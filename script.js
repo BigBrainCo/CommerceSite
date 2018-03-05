@@ -31,7 +31,7 @@ function Start(){
     });
     $(".trans3").delay(2500).animate({
         opacity: '1',
-        marginLeft: ($(window).width() - $(".trans3").width()) / 2 
+        marginLeft: ($(window).width() / 2 - $(".trans3").width())
     });
 }
 
