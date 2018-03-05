@@ -14,8 +14,24 @@ $(document).ready(function(){
         }
 
     $("body").fadeIn(500);
-	
+    
+    $(".startbutton").click(Start);
+
+})
+
+function Start(){
+    $(".startdiv").fadeOut(500);
+    $(".trans1").delay(500).animate({
+        opacity: '1',
+        marginLeft: ($(window).width() - $(".trans1").width()) / 2 
+    });
+    $(".trans2").delay(1500).animate({
+        opacity: '1',
+        marginLeft: ($(window).width() - $(".trans2").width()) / 2 
+    });
+    $(".trans3").delay(2500).animate({
+        opacity: '1',
+        marginLeft: ($(window).width() - $(".trans3").width()) / 2 
+    });
 }
-
-
 
