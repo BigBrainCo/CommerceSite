@@ -17,6 +17,7 @@ $(document).ready(function(){
     
     $(".startbutton").click(Start);
 
+    $(".next1button").click(NextOne);
 })
 
 function Start(){
@@ -24,6 +25,15 @@ function Start(){
     $(".firstdiv").delay(500).animate({
         opacity: '1',
         marginLeft: ($(window).width() - $(".firstdiv").width()) / 2 
+    })
+}
+
+function NextOne(){
+	
+    $(".firstdiv").fadeOut(500);
+    $(".nextdivone").delay(500).animate({
+        opacity: '1',
+        marginLeft: ($(window).width() - $(".nextdivone").width()) / 2 
     })
 }
 
