@@ -35,5 +35,6 @@ function NextOne(){
         opacity: '1',
         marginLeft: ($(window).width() - $(".nextdivone").width()) / 2 
     })
+    $(".backbutton").delay(500).fadeIn();
 }
 
