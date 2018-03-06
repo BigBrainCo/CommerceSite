@@ -38,6 +38,7 @@ p {
 
 .backbutton {
 
+    display: none;
     position: relative;
     top: 0px;
     right: 0px;
