@@ -35,3 +35,10 @@ p {
     font-style: normal;
     color: #88D9E6;
 }
+
+.backbutton {
+
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
