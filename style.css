@@ -21,17 +21,17 @@ body {
 h1 {
     font-weight: 700;
     font-style: italic;
-    color: #69CDE8;
+    color: #5AC9E6;
 }
 
 h2 {
     font-weight: 500;
     font-style: italic;
-    color: #88D9E6;
+    color: #69CDE8;
 }
 
 p {
     font-weight: 300;
     font-style: normal;
-    color: #C5FFFD;
+    color: #88D9E6;
 }
