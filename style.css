@@ -41,6 +41,8 @@ p {
     position: relative;
     top: 0px;
     right: 0px;
+    text-align: right;
+    margin-right: 8px;
 }
 
 .backbutton > svg {
