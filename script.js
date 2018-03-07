@@ -18,6 +18,8 @@ $(document).ready(function(){
     $(".startbutton").click(Start);
 
     $(".next1button").click(NextOne);
+
+    $(".backbutton").click(BackToOne);
 })
 
 function Start(){
@@ -29,12 +31,18 @@ function Start(){
 }
 
 function NextOne(){
-	
     $(".firstdiv").fadeOut(500);
+    $(".backbutton").delay(500).fadeIn();
     $(".nextdivone").delay(500).animate({
         opacity: '1',
         marginLeft: ($(window).width() - $(".nextdivone").width()) / 2 
     });
-    $(".backbutton").delay(500).fadeIn();
+}
+
+function BackToOne(){
+    $(".seconddiv").fadeOut(500);
+    $(".firstdiv").delay(500).fadeIn();
+    $(".backbutton").fadeOut();
+
 }
 
