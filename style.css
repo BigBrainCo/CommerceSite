@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,500i,700i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 body {
     margin: 10 auto;
-    background-color: #FDE7F1;
-    font-family: 'Roboto', Helvetica Neue, sans-serif;
+    background-color: #FDEBF3;
+    font-family: 'Quicksand', Helvetica Neue, sans-serif;
 }
 
 .firstdiv {
@@ -21,13 +21,13 @@ body {
 
 h1 {
     font-weight: 700;
-    font-style: italic;
+    font-style: normal;
     color: #5AC9E6;
 }
 
 h2 {
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     color: #69CDE8;
 }
 
