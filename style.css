@@ -9,7 +9,6 @@ body {
 .firstdiv {
     opacity: 0;
     text-align: center;
-    display:inline-block; 
 
 }
 
@@ -62,6 +61,7 @@ p {
 
 .page {
 
+    opacity: 0;
     width: 100%;
     height: 100%;
 }

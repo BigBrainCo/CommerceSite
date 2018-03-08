@@ -26,7 +26,7 @@ function Start(){
         opacity: '1',
         marginLeft: ($(window).width() - $(".firstdiv").width()) / 2 
     })
-
+    $(".page").fadeIn(500);
     $(function() {
         $.scrollify({
           section : ".page",
