@@ -36,29 +36,6 @@ p {
     color: #88D9E6;
 }
 
-.backbutton {
-
-    display: none;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    text-align: right;
-    margin-right: 12px;
-    margin-top: 8px;
-
-}
-
-.backbutton > svg {
-
-    margin: 0;
-    position: relative;
-}
-
-.backbutton > svg:hover{
-
-    color: grey;
-}
-
 .page {
 
     opacity: 0;
