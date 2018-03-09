@@ -34,6 +34,7 @@ p {
     font-weight: 300;
     font-style: normal;
     color: #88D9E6;
+    margin-bottom: 4px;
 }
 
 .page {
@@ -44,4 +45,10 @@ p {
     margin-left: 24px;
     margin-right: 24px;
 
+}
+
+.quotetext {
+
+    font-style: italic;
+    font-weight: 400;
 }
