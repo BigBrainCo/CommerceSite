@@ -31,8 +31,9 @@ function Start(){
         $.scrollify({
           section : ".page",
         });
+        $.scrollify.instantMove("#first");
       });
-  
+
 }
 
 
