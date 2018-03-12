@@ -96,6 +96,7 @@ ol, ul {
 	margin: 0 auto;
 	margin-top: 0px;
 	text-align: center;
+	display: none;
 }
 .pagination a {
 	display:block;
