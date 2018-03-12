@@ -92,13 +92,10 @@ ol, ul {
 
 
 .pagination {
-	position:fixed;
-	right:20px;
-	top: 50%;
-  transform: translateY(-50%);
-
-	font-size:1.4em;
-	z-index: 10;
+	
+	margin: 0 auto;
+	margin-top: 0px;
+	text-align: center;
 }
 .pagination a {
 	display:block;
