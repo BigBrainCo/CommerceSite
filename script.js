@@ -28,14 +28,12 @@ function Start(){
     })
     $(".page").fadeIn(500);
     $(".pagination").fadeIn(500);
-    $(function() {
-        $.scrollify({
-          section : ".page",
-        });
-        $.scrollify.instantMove("#first");
-      });
-	$(function() {
+    pagination();
+});
+
+function pagination() {
   $.scrollify({
+		section:".panel",
     scrollbars:false,
     before:function(i,panels) {
 
@@ -69,11 +67,6 @@ function Start(){
 
       */
       $(".pagination a").on("click",$.scrollify.move);
-	    
-      $(".pagination").fadeIn(500);
     }
   });
 });
-}
-
-
