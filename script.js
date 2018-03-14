@@ -69,6 +69,8 @@ function Start(){
 
       */
       $(".pagination a").on("click",$.scrollify.move);
+	    
+      $(".pagination").fadeIn(500);
     }
   });
 });
