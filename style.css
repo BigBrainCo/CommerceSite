@@ -34,6 +34,16 @@ body {
     font-family: 'Quicksand', Helvetica Neue, sans-serif;
 }
 
+h1 {
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-weight: 500;
+    font-style: normal;
+}
+
 ol, ul {
 	list-style: none;
 }
