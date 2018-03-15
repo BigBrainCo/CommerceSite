@@ -62,11 +62,6 @@ table {
 
 /****** Main ********/
 
-body {
-	color:white;
-	font-size:62.5%;
-	font-family: 'Lato', sans-serif;
-}
 h1 {
 	font-size:8em;
 
@@ -76,6 +71,11 @@ h2 {
 }
 p {
 	font-size: 2.5em;
+}
+
+li {
+	font-size: 2.5em;
+	line-
 }
 h2 + p {
 	font-size:3em;
@@ -167,9 +167,9 @@ h2 + p {
 	bottom:0;
 }
 
-
-
-
+.lists {
+	list-style-type: square
+}
 .social-corner {
 	position: absolute;
 	top:18px;
