@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	color:white;
+	font-size:62.5%;
     font-family: 'Quicksand', Helvetica Neue, sans-serif;
 }
 
